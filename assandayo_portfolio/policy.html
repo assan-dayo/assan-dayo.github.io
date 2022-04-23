@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+
+  <!-- <script src="asset/js/gtag.js"></script> -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Asako">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Capriola">
+  <link rel="stylesheet" href="asset/materialize/css/materialize.min.css">
+  <link rel="stylesheet" href="asset/aos-master/dist/aos.css">
+  <link rel="stylesheet" href="asset/css/style.css" type="text/css" media="screen">
+  <link rel="shortcut icon" href="asset/img/favicon.JPG" type="image/png"><!--FIXME:-->
+</head>
+
+<body>
+
+  <header>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper container">
+          <a href="index.html" id="logo-container" class="brand-logo"><!--FIXME:-->
+              <img id="profile-image" src="asset/img/favicon.jpg" alt="プロフィール画像" width="100%" height="100%">
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div id="closing-banner-container" class="valign-wrapper top-bottom-color">
+    <div class="container">
+      <h2 class="center">Privacy Policy</h2>
+        <div class="col s12 m12">
+            <p>
+                当サイトでは、Googleによるアクセス解析ツール「Google Analytics」を利用しています。<br>
+                Google Analyticsはトラフィックデータの収集のためにCookieを使用しています。このトラフィックデータは匿名で収集されており、個人を特定するものではありません。<br>
+                この機能はCookieを無効にすることで収集を拒否することが出来ますので、お使いのブラウザの設定をご確認ください。<br>
+                Google Analyticsの利用に関して、詳しくは<a href="https://marketingplatform.google.com/about/analytics/terms/jp/" target="_blank" rel="noopener">こちら</a>をご覧ください。<br>
+                <br>
+                Google Analyticsにより収集された利用者の情報は、Google社のプライバシーポリシーに基づいて管理されます。
+                Google社のプライバシーポリシーは、<a href="https://policies.google.com/privacy?hl=ja" target="_blank" rel="noopener">こちら</a>をご覧下さい。<br>
+                <br>
+            </p>
+
+            <p>
+                This website uses access analysis tool &#8220;Google analytics&#8221; by Google.
+                Google Analytics uses cookies to collect traffic data.
+                This traffic data is collected anonymously and does not identify you personally.
+                If you keep browsing, you accept its use.<br>
+                <br>
+                User information collected by Google Analytics will be managed in accordance with Google's privacy policy.
+                To view Google's privacy policy, please click <a href="https://policies.google.com/privacy?hl=ja" target="_blank" rel="noopener">here</a>.<br>
+            </p>
+        </div>
+    </div>
+  </div>
+
+  <footer class="footer-section valign-wrapper"><!--FIXME:All-->
+    <div class="container copyright">
+      <p>© 2022 Asako Tanaka | <a href="policy.html" target="_blank" rel="noopener">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"
+  integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE="
+  crossorigin="anonymous"></script>
+  <script src="asset/aos-master/dist/aos.js"></script>
+  <script src="asset/materialize/js/materialize.min.js"></script>
+  <script>
+    var versioningNum = new Date().getTime()
+    var jsURL = 'asset/js/custom.js?ver=' + versioningNum
+    var jsElement=document.createElement('script')
+    jsElement.setAttribute('src', jsURL)
+    document.getElementsByTagName("body")[0].appendChild(jsElement)
+  </script>
+
+  </body>
+</html>
